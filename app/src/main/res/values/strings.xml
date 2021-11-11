@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">FootballQuiz</string>
+    <string name="welcome">WELCOME TO THE FOOTBALL QUIZ</string>
+    <string name="enter_name">Please enter your name</string>
+    <string name="go">GO</string>
+    <string name="submit">Submit</string>
+    <string name="next">Go to next question</string>
+    <string name="finish">Finish</string>
 </resources>

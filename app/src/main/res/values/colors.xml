@@ -7,4 +7,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="white_text">#FFFFFF</color>
+    <color name="dark_text">#000000</color>
+    <color name="score_text">#D3CFCF</color>
+    <color name="box_color">#EBEDEB</color>
+    <color name="submit_box">#C4C4C4</color>
 </resources>
