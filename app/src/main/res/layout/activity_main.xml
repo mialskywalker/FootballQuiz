@@ -12,7 +12,34 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/welcome"
+        android:text="WELCOME"
+        android:gravity="center"
+        android:textColor="@color/white_text"
+        android:textSize="36sp"
+        android:fontFamily="@font/rocksalt_regular"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TO"
+        android:gravity="center"
+        android:textColor="@color/white_text"
+        android:textSize="24sp"
+        android:fontFamily="@font/rocksalt_regular"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THE FOOTBALL"
+        android:gravity="center"
+        android:textColor="@color/white_text"
+        android:textSize="24sp"
+        android:fontFamily="@font/rocksalt_regular"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUIZ"
         android:layout_marginBottom="30dp"
         android:gravity="center"
         android:textColor="@color/white_text"
@@ -23,8 +50,8 @@
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
         app:cardCornerRadius="30dp"
         android:background="@color/box_color"
         >
@@ -76,6 +103,7 @@
                 android:text="@string/go"
                 android:textColor="@color/dark_text"
                 android:textSize="18sp"
+                android:textStyle="bold"
                 android:fontFamily="@font/ruda_font"
                 />
 
