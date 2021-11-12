@@ -107,49 +107,49 @@ object Constants {
         questionsList.add(que12)
 
         val que13 = Question(
-            13, "",
+            13, "Who was chosen as the best goalkeeper at the 2010 World Cup?",
             R.drawable.ic_flag_of_argentina,
-            "", "", "", "",
-            1
+            "Manuel Neuer", "Maarten Stekelenburg", "Gianluigi Buffon", "Iker Casillas",
+            4
         )
         questionsList.add(que13)
 
         val que14 = Question(
-            14, "",
+            14, "What was the transfer fee for Neymar to PSG?",
             R.drawable.ic_flag_of_argentina,
-            "", "", "", "",
-            1
+            "135 million", "222 million", "230 million", "190 million",
+            2
         )
         questionsList.add(que14)
 
         val que15 = Question(
-            15, "",
+            15, "Which one of these players wasn't in the top 3 for the 2010 Ballon d'Or?",
             R.drawable.ic_flag_of_argentina,
-            "", "", "", "",
+            "Cristiano Ronaldo", "Xavi Hernandez", "Andres Iniesta", "Lionel Messi",
             1
         )
         questionsList.add(que15)
 
         val que16 = Question(
-            16, "",
+            16, "Who scored the most goals in the UEFA Euro 2016?",
             R.drawable.ic_flag_of_argentina,
-            "", "", "", "",
-            1
+            "Romelo Lukaku", "Alvaro Morata", "Gareth Bale", "Antoine Griezmann",
+            4
         )
         questionsList.add(que16)
 
         val que17 = Question(
-            17, "",
+            17, "Which of these german teams was coached by Jurgen Klopp?",
             R.drawable.ic_flag_of_argentina,
-            "", "", "", "",
-            1
+            "Bayern Munich", "Bayer Leverkusen", "Mainz 05", "Schalke 04",
+            3
         )
         questionsList.add(que17)
 
         val que18 = Question(
-            18, "",
+            18, "Who introduced the tiki-taka style of play?",
             R.drawable.ic_flag_of_argentina,
-            "", "", "", "",
+            "Luis Enrique", "Frank Rijkaard", "Johan Cruyff", "Pep Guardiola",
             1
         )
         questionsList.add(que18)
