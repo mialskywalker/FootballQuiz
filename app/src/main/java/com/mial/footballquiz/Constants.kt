@@ -155,18 +155,18 @@ object Constants {
         questionsList.add(que18)
 
         val que19 = Question(
-            19, "",
+            19, "With 202 clean sheets, which goalkeeper has the best record in the Premier League?",
             R.drawable.ic_flag_of_argentina,
-            "", "", "", "",
-            1
+            "Edwin Van der Sar", "Petr Cech", "Pepe Reina", "Alisson Becker",
+            2
         )
         questionsList.add(que19)
 
         val que20 = Question(
-            20, "",
+            20, "The record number of World Cup goals is 16, scored by who?",
             R.drawable.ic_flag_of_argentina,
-            "", "", "", "",
-            1
+            "Ronaldo", "Gerd Muller", "Just Fontaine", "Miroslav Klose",
+            4
         )
         questionsList.add(que20)
 
