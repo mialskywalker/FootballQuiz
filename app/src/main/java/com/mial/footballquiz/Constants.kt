@@ -17,6 +17,14 @@ object Constants {
             3
         )
         questionsList.add(que1)
+
+        val que2 = Question(
+            2, "ASDASDQWEQWDASD?",
+            R.drawable.ic_flag_of_argentina,
+            "FC Barcelona", "AC Milan", "Manchester United", "FC Porto",
+            3
+        )
+        questionsList.add(que2)
         // TODO Questions
 
         return questionsList
