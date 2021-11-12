@@ -53,119 +53,119 @@ object Constants {
         val que6 = Question(
             6, "Which manager was famously said to have given players 'the Hairdryer Treatment'?",
             R.drawable.ic_flag_of_argentina,
-            "Sir Alex Ferguson", "Pep Guardiola", "aland", "Frenkie de Jong",
+            "Sir Alex Ferguson", "Pep Guardiola", "Jose Mourinho", "Manuel Pellegrini",
             1
         )
         questionsList.add(que6)
 
         val que7 = Question(
-            7, "Which manager was famously said to have given players 'the Hairdryer Treatment'?",
+            7, "In video game FIFA 21, team Piemonte Calcio represents which real-life club?",
             R.drawable.ic_flag_of_argentina,
-            "Sir Alex Ferguson", "Pep Guardiola", "aland", "Frenkie de Jong",
-            1
+            "Chelsea", "Juventus", "Paris Saint-Germain", "S.S. Lazio",
+            2
         )
         questionsList.add(que7)
 
         val que8 = Question(
-            8, "Which manager was famously said to have given players 'the Hairdryer Treatment'?",
+            8, "Which outfield player appeared in the Champions League final in three different decades?",
             R.drawable.ic_flag_of_argentina,
-            "Sir Alex Ferguson", "Pep Guardiola", "aland", "Frenkie de Jong",
-            1
+            "Rio Ferdinand", "Cristiano Ronaldo", "Zinedine Zidane", "Ryan Giggs",
+            4
         )
         questionsList.add(que8)
 
         val que9 = Question(
-            9, "Which manager was famously said to have given players 'the Hairdryer Treatment'?",
+            9, "Who is the only player to win the Champions League with three different clubs?",
             R.drawable.ic_flag_of_argentina,
-            "Sir Alex Ferguson", "Pep Guardiola", "aland", "Frenkie de Jong",
-            1
+            "Gareth Bale", "Ricardo Kaka", "Clarence Seedorf", "Diego Maradona",
+            3
         )
         questionsList.add(que9)
 
         val que10 = Question(
-            10, "Which manager was famously said to have given players 'the Hairdryer Treatment'?",
+            10, "Which is the world’s largest football ground?",
             R.drawable.ic_flag_of_argentina,
-            "Sir Alex Ferguson", "Pep Guardiola", "aland", "Frenkie de Jong",
-            1
+            "Camp Nou", "Rungrado 1st of May Stadium", "Stamford Bridge", "Wembley Stadium",
+            2
         )
         questionsList.add(que10)
 
         val que11 = Question(
-            11, "Which manager was famously said to have given players 'the Hairdryer Treatment'?",
+            11, "Which country won the first World Cup Championship?",
             R.drawable.ic_flag_of_argentina,
-            "Sir Alex Ferguson", "Pep Guardiola", "aland", "Frenkie de Jong",
+            "Uruguay", "Argentina", "Brazil", "England",
             1
         )
         questionsList.add(que11)
 
         val que12 = Question(
-            12, "Which manager was famously said to have given players 'the Hairdryer Treatment'?",
+            12, "Which team won the Champions League 2006/07 trophy?",
             R.drawable.ic_flag_of_argentina,
-            "Sir Alex Ferguson", "Pep Guardiola", "aland", "Frenkie de Jong",
+            "AC Milan", "FC Barcelona", "Manchester United", "Liverpool FC",
             1
         )
         questionsList.add(que12)
 
         val que13 = Question(
-            13, "Which manager was famously said to have given players 'the Hairdryer Treatment'?",
+            13, "",
             R.drawable.ic_flag_of_argentina,
-            "Sir Alex Ferguson", "Pep Guardiola", "aland", "Frenkie de Jong",
+            "", "", "", "",
             1
         )
         questionsList.add(que13)
 
         val que14 = Question(
-            14, "Which manager was famously said to have given players 'the Hairdryer Treatment'?",
+            14, "",
             R.drawable.ic_flag_of_argentina,
-            "Sir Alex Ferguson", "Pep Guardiola", "aland", "Frenkie de Jong",
+            "", "", "", "",
             1
         )
         questionsList.add(que14)
 
         val que15 = Question(
-            15, "Which manager was famously said to have given players 'the Hairdryer Treatment'?",
+            15, "",
             R.drawable.ic_flag_of_argentina,
-            "Sir Alex Ferguson", "Pep Guardiola", "aland", "Frenkie de Jong",
+            "", "", "", "",
             1
         )
         questionsList.add(que15)
 
         val que16 = Question(
-            16, "Which manager was famously said to have given players 'the Hairdryer Treatment'?",
+            16, "",
             R.drawable.ic_flag_of_argentina,
-            "Sir Alex Ferguson", "Pep Guardiola", "aland", "Frenkie de Jong",
+            "", "", "", "",
             1
         )
         questionsList.add(que16)
 
         val que17 = Question(
-            17, "Which manager was famously said to have given players 'the Hairdryer Treatment'?",
+            17, "",
             R.drawable.ic_flag_of_argentina,
-            "Sir Alex Ferguson", "Pep Guardiola", "aland", "Frenkie de Jong",
+            "", "", "", "",
             1
         )
         questionsList.add(que17)
 
         val que18 = Question(
-            18, "Which manager was famously said to have given players 'the Hairdryer Treatment'?",
+            18, "",
             R.drawable.ic_flag_of_argentina,
-            "Sir Alex Ferguson", "Pep Guardiola", "aland", "Frenkie de Jong",
+            "", "", "", "",
             1
         )
         questionsList.add(que18)
 
         val que19 = Question(
-            19, "Which manager was famously said to have given players 'the Hairdryer Treatment'?",
+            19, "",
             R.drawable.ic_flag_of_argentina,
-            "Sir Alex Ferguson", "Pep Guardiola", "aland", "Frenkie de Jong",
+            "", "", "", "",
             1
         )
         questionsList.add(que19)
 
         val que20 = Question(
-            20, "Which manager was famously said to have given players 'the Hairdryer Treatment'?",
+            20, "",
             R.drawable.ic_flag_of_argentina,
-            "Sir Alex Ferguson", "Pep Guardiola", "aland", "Frenkie de Jong",
+            "", "", "", "",
             1
         )
         questionsList.add(que20)
