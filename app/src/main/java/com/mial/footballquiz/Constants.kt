@@ -150,7 +150,7 @@ object Constants {
             18, "Who introduced the tiki-taka style of play?",
             R.drawable.que18,
             "Luis Enrique", "Frank Rijkaard", "Johan Cruyff", "Pep Guardiola",
-            1
+            3
         )
         questionsList.add(que18)
 
