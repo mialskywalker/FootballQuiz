@@ -17,6 +17,8 @@
         >
         
         <TextView
+
+            android:id="@+id/textview_question"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -28,6 +30,7 @@
             />
 
         <ImageView
+            android:id="@+id/imageview_img"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -44,6 +47,7 @@
             >
 
             <ProgressBar
+                android:id="@+id/progress_bar"
                 android:layout_width="0dp"
                 style="@style/Widget.AppCompat.ProgressBar.Horizontal"
                 android:layout_height="wrap_content"
@@ -54,6 +58,7 @@
                 android:progress="0"
                 />
             <TextView
+                android:id="@+id/textview_progress"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -67,6 +72,7 @@
         </LinearLayout>
 
         <TextView
+            android:id="@+id/textview_option_one"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -79,6 +85,7 @@
             tools:text="A1"
             />
         <TextView
+            android:id="@+id/textview_option_two"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -91,6 +98,7 @@
             tools:text="A1"
             />
         <TextView
+            android:id="@+id/textview_option_three"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -103,6 +111,7 @@
             tools:text="A1"
             />
         <TextView
+            android:id="@+id/textview_option_four"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -116,10 +125,11 @@
             />
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_submit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:background="@color/submit_box"
+            android:background="@drawable/submit_button_bg"
             android:text="@string/submit"
             android:textColor="@color/dark_text"
             android:fontFamily="@font/ruda_font"
