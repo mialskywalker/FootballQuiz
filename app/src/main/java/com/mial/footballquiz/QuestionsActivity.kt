@@ -159,14 +159,14 @@ class QuestionsActivity : AppCompatActivity(), View.OnClickListener {
                         mCurrentPosition <= mQuestionsList!!.size -> {
                             setQuestion()
                         }
-                        /*else -> {
+                        else -> {
                             val intent = Intent(this, ResultActivity::class.java)
                             intent.putExtra(Constants.USER_NAME, mUserName)
                             intent.putExtra(Constants.CORRECT_ANSWERS, mCorrectAnswers)
                             intent.putExtra(Constants.TOTAL_QUESTIONS, mQuestionsList?.size)
                             startActivity(intent)
                             finish()
-                        }*/
+                        }
                     }
                 }else {
                     val question = mQuestionsList?.get(mCurrentPosition - 1)
