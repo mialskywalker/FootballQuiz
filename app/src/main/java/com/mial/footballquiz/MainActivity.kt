@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import com.google.android.gms.ads.MobileAds
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,6 +15,8 @@ class MainActivity : AppCompatActivity() {
 
         val btnStart : Button = findViewById(R.id.btn_start)
         val etName : EditText = findViewById(R.id.et_name)
+
+        MobileAds.initialize(this@MainActivity)
 
         btnStart.setOnClickListener {
 
