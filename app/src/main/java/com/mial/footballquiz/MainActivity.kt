@@ -9,10 +9,11 @@ import android.widget.Toast
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.MobileAds
+import com.google.android.gms.ads.interstitial.InterstitialAd
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var mAdView : AdView
+    private lateinit var mInterstitialAd : InterstitialAd
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,9 +23,8 @@ class MainActivity : AppCompatActivity() {
         val etName : EditText = findViewById(R.id.et_name)
 
         MobileAds.initialize(this@MainActivity)
-        mAdView = findViewById(R.id.adView)
-        val adRequest = AdRequest.Builder().build()
-        mAdView.loadAd(adRequest)
+
+//        mInterstitialAd = InterstitialAd(this)
 
 
         btnStart.setOnClickListener {

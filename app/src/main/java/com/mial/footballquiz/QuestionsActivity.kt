@@ -12,8 +12,13 @@ import android.widget.ImageView
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.core.content.ContextCompat
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.AdView
+import com.google.android.gms.ads.MobileAds
 
 class QuestionsActivity : AppCompatActivity(), View.OnClickListener {
+
+    lateinit var mAdView : AdView
 
     private var mCurrentPosition : Int = 1
     private var mQuestionsList : ArrayList<Question>? = null
@@ -37,6 +42,12 @@ class QuestionsActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_questions)
 
+        // Banner Ad
+        mAdView = findViewById(R.id.adView)
+        val adRequest = AdRequest.Builder().build()
+        mAdView.loadAd(adRequest)
+
+        // Rest
         mUserName = intent.getStringExtra(Constants.USER_NAME)
 
         progressBar = findViewById(R.id.progress_bar)

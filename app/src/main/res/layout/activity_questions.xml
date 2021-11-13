@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
             android:gravity="center"
-            android:textSize="24sp"
+            android:textSize="20sp"
             android:textColor="@color/white_text"
             android:fontFamily="@font/ruda_font"
             tools:text="Question text here?"
@@ -136,9 +136,22 @@
             android:textSize="18sp"
             android:textStyle="bold"
             />
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+            >
+
+        </com.google.android.gms.ads.AdView>
         
         
     </LinearLayout>
+
     
 
 </ScrollView>
